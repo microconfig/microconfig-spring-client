@@ -1,0 +1,38 @@
+### Java template
+# Compiled class file
+*.class
+
+.idea/
+*.iml
+
+target/
+build/
+out/
+logs/
+config/
+.gradle/
+.graal
+
+*.crt
+
+# Log file
+*.log
+
+# Package Files #
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+# Native cli executable #
+microconfig-cli
+microctl
+.graalvm
+
+# Local config files
+*.jwt
+docs/vault/files/ca.crt
+docs/vault/files/roles.txt

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-app
+
+microconfig:
+  enabled: true
+  server: https://microconfig-server.microconfig:8443
+  vars:
+    dynamic:
+      var1: prop1

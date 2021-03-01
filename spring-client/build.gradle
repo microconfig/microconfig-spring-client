@@ -1,0 +1,11 @@
+jar {
+    enabled = true
+}
+
+dependencies {
+    // TODO get as dependency
+    implementation project("io.microconfig:server-client:0.1.0")
+    implementation "org.springframework:spring-core"
+    implementation "org.springframework.boot:spring-boot-starter"
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+}

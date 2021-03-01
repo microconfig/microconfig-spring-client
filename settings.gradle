@@ -1,0 +1,4 @@
+rootProject.name = 'microconfig-spring-client'
+
+include ':spring-client'
+include ':sample-app'
