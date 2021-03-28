@@ -11,7 +11,7 @@
       "description": "Git ref (branch/tag) to use in configuration repository."
     },
     {
-      "name": "microconfig.environment",
+      "name": "microconfig.env",
       "type": "java.lang.String",
       "description": "Environment to use for service configuration."
     }

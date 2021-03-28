@@ -1,11 +1,24 @@
+apply plugin: 'maven-publish'
+
 jar {
     enabled = true
 }
 
 dependencies {
-    implementation "io.microconfig:server-client:0.1.0"
-    implementation "io.microconfig:server-common:0.1.0"
+    implementation "io.microconfig:server-client:0.5.0"
+    implementation "io.microconfig:server-common:0.5.0"
     implementation "org.springframework:spring-core"
     implementation "org.springframework.boot:spring-boot-starter"
     annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            artifactId = 'spring-client'
+            version = "$version"
+
+            from components.java
+        }
+    }
 }

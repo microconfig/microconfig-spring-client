@@ -1,4 +1,4 @@
-package io.microconfig.spring.sample
+package io.microconfig.spring
 
 import io.microconfig.server.client.ClientConfig
 import io.microconfig.server.client.MicroconfigClient
