@@ -4,7 +4,7 @@ spring:
 
 microconfig:
   enabled: true
-  server: https://microconfig-server.microconfig:8443
+  server: http://localhost:8080
   vars:
     dynamic:
       var1: prop1
